@@ -100,18 +100,22 @@ export default function Portfolio() {
               animate={{ opacity: 1, y: 0 }}
               transition={{ duration: 0.6, delay: 0.8 }}
             >
-              <Button className="relative overflow-hidden group bg-gradient-to-r from-blue-500 to-cyan-400 border-0">
-                <span className="relative z-10 flex items-center">
-                  View Projects <ArrowRight className="ml-2 h-4 w-4 transition-transform group-hover:translate-x-1" />
-                </span>
-                <span className="absolute inset-0 bg-gradient-to-r from-cyan-400 to-blue-500 opacity-0 group-hover:opacity-100 transition-opacity"></span>
-              </Button>
-              <Button
-                variant="outline"
-                className="border-zinc-700 text-cyan-400 hover:text-cyan-300 hover:border-zinc-500"
-              >
-                Contact Me
-              </Button>
+              <Link href="#projects">
+                <Button className="w-full sm:w-auto relative overflow-hidden group bg-gradient-to-r from-blue-500 to-cyan-400 border-0">
+                  <span className="relative z-10 flex items-center">
+                    View Projects <ArrowRight className="ml-2 h-4 w-4 transition-transform group-hover:translate-x-1" />
+                  </span>
+                  <span className="absolute inset-0 bg-gradient-to-r from-cyan-400 to-blue-500 opacity-0 group-hover:opacity-100 transition-opacity"></span>
+                </Button>
+              </Link>
+              <Link href="#contact">
+                <Button
+                  variant="outline"
+                  className="w-full sm:w-auto border-zinc-700 text-cyan-400 hover:text-cyan-300 hover:border-zinc-500"
+                >
+                  Contact Me
+                </Button>
+              </Link>
             </motion.div>
             <motion.div
               className="flex flex-wrap gap-4 pt-4"
