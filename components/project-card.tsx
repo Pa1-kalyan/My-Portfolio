@@ -2,6 +2,7 @@
 
 import { useState } from "react"
 import Link from "next/link"
+import Image from "next/image"
 import { Github } from "lucide-react"
 import { motion } from "framer-motion"
 
@@ -34,11 +35,13 @@ export function ProjectCard({ title, description, image, repoUrl }: ProjectCardP
 
         <div className="relative h-full flex flex-col">
           <div className="relative overflow-hidden h-48">
-            <div className="absolute inset-0 bg-gradient-to-b from-blue-500/20 to-cyan-400/20 opacity-0 group-hover:opacity-100 transition-opacity duration-300 z-10"></div>
-            <img
-              src={image || "/placeholder.svg"}
+            <div className="absolute inset-0 bg-gradient-to-b from-blue-500/20 to-cyan-400/20 opacity-0 group-hover:opacity-100 transition-opacity duration-300 z-10 w-full h-full"></div>
+            <Image
+              src={image || "./placeholder.svg"}
               alt={title}
-              className={`w-full h-full object-cover transition-transform duration-700 ${isHovered ? "scale-110" : "scale-100"}`}
+              fill
+              unoptimized
+              className={`object-cover transition-transform duration-700 ${isHovered ? "scale-110" : "scale-100"}`}
             />
           </div>
 

@@ -261,7 +261,7 @@ export default function Portfolio() {
               <ProjectCard
                 title="Airline Booking Application"
                 description="A comprehensive backend system for flight reservations with seat selection, booking management and real time flight status updates."
-                image="/projects/Airline Booking Application.png"
+                image="./projects/Airline Booking Application.png"
                 repoUrl="https://github.com/Pa1-kalyan/Airline-Booking-Application"
               />
             </motion.div>
@@ -269,7 +269,7 @@ export default function Portfolio() {
               <ProjectCard
                 title="E-commerce Platform"
                 description="RESTful API for an online retail platform handling product catalog, user authentication and shopping cart logic."
-                image="/projects/E-commerce Platform.png"
+                image="./projects/E-commerce Platform.png"
                 repoUrl="https://github.com/Pa1-kalyan/Ecommerce-website"
               />
             </motion.div>
@@ -277,7 +277,7 @@ export default function Portfolio() {
               <ProjectCard
                 title="Inventory Management Tool"
                 description="Robust inventory tracking system with real time stock updates, low stock alerts and detailed reporting dashboards."
-                image="/projects/Inventory Management Tool.png"
+                image="./projects/Inventory Management Tool.png"
                 repoUrl="https://github.com/Pa1-kalyan/Inventory-management-system"
               />
             </motion.div>

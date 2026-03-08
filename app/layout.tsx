@@ -4,7 +4,7 @@ import './globals.css'
 export const metadata: Metadata = {
   title: 'Pavan\'s Portfolio',
   icons: {
-    icon: '/favicon.png',
+    icon: './favicon.png',
   },
 }
 

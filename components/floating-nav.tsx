@@ -89,7 +89,7 @@ export function FloatingNav() {
                   {item.name}
                 </Link>
               ))}
-              <Link href="/Pavan_kalyan.pdf" target="_blank" rel="noopener noreferrer">
+              <Link href="./Pavan_kalyan.pdf" target="_blank" rel="noopener noreferrer">
                 <Button
                   size="sm"
                   className="ml-2 bg-gradient-to-r from-blue-500 to-cyan-400 hover:from-cyan-400 hover:to-blue-500 border-0"
@@ -121,7 +121,7 @@ export function FloatingNav() {
                 {item.name}
               </Link>
             ))}
-            <Link href="/Pavan_kalyan.pdf" target="_blank" rel="noopener noreferrer" onClick={handleNavClick}>
+            <Link href="./Pavan_kalyan.pdf" target="_blank" rel="noopener noreferrer" onClick={handleNavClick}>
               <Button className="mt-6 bg-gradient-to-r from-blue-500 to-cyan-400 hover:from-cyan-400 hover:to-blue-500 border-0">
                 Resume
               </Button>
