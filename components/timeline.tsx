@@ -5,9 +5,16 @@ import { useMobile } from "@/hooks/use-mobile"
 
 const experiences = [
   {
+    title: "Application Engineer",
+    company: "Amazon",
+    period: "Aug 2026 – Present",
+    description:
+      "Develop and maintain product catalog configurations by managing metadata attributes, implementing business rules, and resolving data quality issues to ensure consistent and reliable product information.",
+  },
+  {
     title: "Software Engineer",
     company: "Infinite Computer Solutions",
-    period: "Mar 2024 – Present",
+    period: "Mar 2024 – Aug 2026",
     description:
       "Built and maintained scalable Java based microservices, developed REST APIs, implemented business logic and ensured secure, high-performance backend systems.",
   },

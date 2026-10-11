@@ -18,6 +18,11 @@ const skills = [
     { name: 'JUnit5', icon: '✅', bg: 'bg-green-500/10', color: 'text-green-400' },
     { name: 'Mockito', icon: '🎭', bg: 'bg-teal-500/10', color: 'text-teal-400' },
     { name: 'Log4j', icon: '📝', bg: 'bg-purple-500/10', color: 'text-purple-400' },
+    { name: 'AI Agents', icon: '🤖', bg: 'bg-violet-500/10', color: 'text-violet-400' },
+    { name: 'LLMs', icon: '🧠', bg: 'bg-pink-500/10', color: 'text-pink-400' },
+    { name: 'MCP', icon: '⚡', bg: 'bg-emerald-500/10', color: 'text-emerald-400' },
+    { name: 'Claude', icon: '✨', bg: 'bg-amber-500/10', color: 'text-amber-400' },
+    { name: 'Cursor', icon: '💻', bg: 'bg-cyan-500/10', color: 'text-cyan-400' },
 ]
 
 const containerVariants = {
@@ -83,7 +88,7 @@ export function SkillsGrid() {
                     className="col-span-full flex items-center justify-center p-3 rounded-lg bg-zinc-900/50 border border-zinc-700/30"
                     variants={itemVariants}
                 >
-                    <p className="text-sm text-zinc-500 text-center italic">
+                    <p className="text-sm text-white text-center italic">
                         Looking for another skill? If a skill helps me grow, it earns a place here.
                     </p>
                 </motion.div>
